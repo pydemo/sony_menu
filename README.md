@@ -1,4 +1,4 @@
-# SonyCharmer: AI-Powered Camera Settings Assistant
+# AlphaAdvisor: AI-Powered Camera Settings Assistant
 
 A comprehensive solution to make Sony A7R V camera configuration accessible through AI-powered guidance.
 
