@@ -1,81 +1,99 @@
-# Sony A7R V CAMSET File Generator
+# SonyCharmer: AI-Powered Camera Settings Assistant
 
-A Python tool for generating Sony A7R V camera settings (CAMSET) files with custom aspect ratios.
+A comprehensive solution to make Sony A7R V camera configuration accessible through AI-powered guidance.
 
-## Background
+## Project Goal
 
-The Sony A7R V camera uses proprietary binary CAMSET files to store camera settings, including aspect ratio configurations. This tool enables users to generate custom aspect ratio settings files by analyzing and modifying the binary structure of existing reference files.
+This project is part of the Devpost.com hackathon and aims to create an intelligent assistant that helps photographers optimize their Sony A7R V camera settings through natural language interaction.
 
-## Features
+Documentation is step one, which we are doing manually by capturing the entire menu hierarchy from the camera in structured JSON format. With this foundation in place, our next steps include:
 
-- Generate CAMSET files with custom aspect ratios (e.g., 1:1, 5:4, etc.)
-- Uses reference files to understand and preserve the binary file structure
-- Automatically updates timestamp information
-- Intelligently maps custom aspect ratios based on patterns observed in existing files
+1. Creating educational resources for camera users
+2. Researching camera configuration options for creative use
+3. Enabling users to create complex presets which they can use as guides to manually mirror them in camera
+4. **Using LLMs (Large Language Models) to generate personalized camera preset plans** - providing users with step-by-step menu navigation instructions tailored to their specific photography needs
 
-## Installation
+## How We Parse the Complete Tree of Sony Camera Menus into JSON
 
-Clone this repository to your local machine:
+Our approach to documenting the Sony A7R V menu system involves several steps:
 
-```bash
-git clone https://github.com/yourusername/sony-camset-generator.git
-cd sony-camset-generator
+1. **Menu Structure Mapping**: We start by capturing the top-level menu categories (tabs) with their names, colors, and icons.
+
+2. **Page Identification**: Within each menu tab, we identify and document individual pages and their settings.
+
+3. **Setting Documentation**: For each setting, we record:
+   - The name of the setting
+   - Available options/values
+   - Detailed descriptions of the setting's purpose
+   - Default values where applicable
+
+4. **Hierarchical Organization**: We maintain the hierarchical structure of the menu system with nested JSON objects that accurately represent submenus and their relationships.
+
+5. **Visual Reference**: We include references to screenshots of menu pages to validate the structure and content.
+
+6. **Comprehensive Coverage**: We ensure that every menu item in the camera is documented, including hidden or conditional settings.
+
+The resulting JSON structure follows this pattern:
+```json
+{
+  "camera": "Sony A7R V",
+  "menu_structure": [
+    {
+      "tab_name": "Tab Name",
+      "tab_color": "Color",
+      "tab_icon": "ICON",
+      "pages": [
+        {
+          "page_name": "Page Name",
+          "settings": [
+            {
+              "name": "Setting Name",
+              "options": ["Option 1", "Option 2", "..."],
+              "description": "Detailed description of the setting"
+            },
+            // More settings...
+          ]
+        },
+        // More pages...
+      ]
+    },
+    // More tabs...
+  ]
+}
 ```
 
-No additional dependencies are required beyond Python 3.6+.
+## Repository Structure
 
-## Usage
+- `sony_a7rv_menu.json`: Main JSON file containing the complete menu structure
+- `MENU/`: Directory containing individual JSON files for each menu section
+  - `menu_main.json`, `menu_shooting.json`, etc.: JSON files for each menu tab
+  - Subdirectories for each page containing individual setting JSON files
 
-```bash
-python generate_camset.py <ratio_x> <ratio_y> [output_file]
-```
+## Future Applications
 
-### Arguments
+With this structured documentation in place, we plan to:
 
-- `ratio_x`: Numerator of the aspect ratio (e.g., 1 for 1:1, 5 for 5:4)
-- `ratio_y`: Denominator of the aspect ratio (e.g., 1 for 1:1, 4 for 5:4)
-- `output_file`: (Optional) Path for the output file. If not specified, the file will be saved as `CAMSET/custom_<x>x<y>.DAT`
+1. Build visualization tools to help users navigate the complex menu system
+2. Develop preset generators for specific photography styles (portrait, landscape, astrophotography, etc.)
+3. Create comparison tools to understand differences between camera settings
+4. Enable photographers to share optimal configurations for specific shooting scenarios
+5. **Leverage LLMs to generate customized camera setup guides** - Users will be able to describe their photography goals in natural language, and our system will generate detailed, personalized menu navigation instructions to achieve optimal camera settings
 
-### Examples
+## LLM-Powered Camera Setup Assistant
 
-Generate a 1:1 (square) aspect ratio file:
-```bash
-python generate_camset.py 1 1
-```
+A key innovation of this project is using LLMs to create a camera setup assistant that:
 
-Generate a 5:4 aspect ratio file with a custom output path:
-```bash
-python generate_camset.py 5 4 my_custom_ratio.DAT
-```
+1. Understands natural language descriptions of photography goals (e.g., "I want to shoot fast-moving sports in low light conditions")
+2. Analyzes the complete menu structure to determine optimal settings combinations
+3. Generates a detailed, ordered list of menu items for the user to change on their camera
+4. Provides explanations for why specific settings are recommended
+5. Adapts recommendations based on user feedback and preferences
 
-## How It Works
+This approach bridges the gap between complex camera capabilities and user-friendly guidance, making advanced photography techniques more accessible to users at all skill levels.
 
-The tool:
-1. Analyzes binary patterns in existing CAMSET files (3:2, 4:3, 16:9)
-2. Identifies locations where aspect ratio data is encoded
-3. Interpolates the correct byte values for custom ratios
-4. Updates timestamps and other metadata
-5. Writes the modified binary data to a new file
+## Contributing
 
-## Findings on the CAMSET File Format
-
-Based on analysis of the binary files:
-
-- Files start with a header containing "SONY0ILCE-7RM5" (camera model)
-- Timestamp in format "YYYYMMDD_HHMMSS" located at offset 0x10-0x23
-- Primary aspect ratio indicator at offset 0x24
-- Known values:
-  - 3:2: `00 CA 00 00`
-  - 4:3: `00 B6 00 00`
-  - 16:9: `00 6A 00 00`
-- Aspect ratio encoding appears to use an inverse relationship with scaling
-
-## Limitations
-
-- The Sony CAMSET file format is proprietary and undocumented
-- This tool uses reverse engineering to reproduce the file structure
-- Using modified CAMSET files is at your own risk
-- Not all possible aspect ratios have been tested
+Contributions to improve accuracy, add missing menu items, or enhance descriptions are welcome. Please submit pull requests with any corrections or additions.
 
 ## License
 
