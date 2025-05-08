@@ -1,0 +1,1199 @@
+{
+  "camera": "Sony A7R V",
+  "menu_structure": [
+    {
+      "tab_name": "Main Menu",
+      "tab_color": "White",
+      "tab_icon": "HOME",
+      "description": "Quick access to essential settings (borrowed from Sony's cinema line)",
+      "settings": [
+        "Camera Settings",
+        "Movie Settings",
+        "Image Quality",
+        "Display",
+        "Focus",
+        "Connectivity"
+      ]
+    },
+    {
+      "tab_name": "Shooting",
+      "tab_color": "Red",
+      "tab_icon": "CAMERA",
+      "pages": [
+        {
+          "page_name": "Shooting Menu - Page 3/58",
+          "settings": [
+            {
+              "name": "Image Quality/Rec",
+              "description": "Access to image quality and recording settings"
+            },
+            {
+              "name": "JPEG/HEIF Switch",
+              "options": ["JPEG", "HEIF"],
+              "description": "Selects JPEG or HEIF as the file format when not shooting RAW"
+            },
+            {
+              "name": "Image Quality Settings",
+              "description": "Access to quality settings for JPEG/HEIF images"
+            },
+            {
+              "name": "Aspect Ratio",
+              "options": ["3:2", "4:3", "16:9", "1:1"],
+              "description": "Sets the aspect ratio of still images"
+            },
+            {
+              "name": "File Format",
+              "options": ["RAW", "RAW+J/H", "JPEG", "HEIF"],
+              "description": "Sets the file format for still images"
+            },
+            {
+              "name": "Movie Settings",
+              "description": "Access to settings for movie recording"
+            },
+            {
+              "name": "APS-C S35 Shooting",
+              "options": ["Auto", "Manual"],
+              "description": "Determines whether to shoot with an APS-C equivalent field of view"
+            },
+            {
+              "name": "Long Exposure NR",
+              "options": ["On", "Off"],
+              "description": "Sets noise reduction processing for shots with a 1-second or longer exposure"
+            }
+          ]
+        },
+        {
+          "page_name": "Shooting Menu - Page 11/58",
+          "settings": [
+            {
+              "name": "Zoom",
+              "description": "Access to zoom settings"
+            },
+            {
+              "name": "Shooting Display",
+              "description": "Access to display settings during shooting"
+            }
+          ]
+        },
+        {
+          "page_name": "Drive Mode",
+          "settings": [
+            {
+              "name": "Drive Mode",
+              "options": ["Single Shooting", "Cont. Shooting Lo", "Cont. Shooting Mid", "Cont. Shooting Hi", "Self-timer"],
+              "description": "Sets the drive mode such as continuous shooting or self-timer"
+            },
+            {
+              "name": "Bracket Settings",
+              "options": ["Bracket Type", "Self-timer during Bracket", "Bracket order"],
+              "description": "Sets self-timer shooting in bracket mode, shooting order for exposure bracketing"
+            },
+            {
+              "name": "Interval Shoot Func.",
+              "options": ["Interval Shooting", "Number of Shots", "Interval"],
+              "description": "Configures interval shooting"
+            },
+            {
+              "name": "Pixel Shift Multi Shoot",
+              "options": ["Pixel Shift Multi Shooting", "Image Interval", "Auto Image Correction"],
+              "description": "Creates images with higher resolution than normal shooting by combining multiple images"
+            }
+          ]
+        },
+        {
+          "page_name": "Shutter/Silent",
+          "settings": [
+            {
+              "name": "Silent Mode Settings",
+              "options": ["Silent Mode", "Target Function Settings"],
+              "description": "Sets whether to shoot without shutter sounds"
+            },
+            {
+              "name": "Shutter Type",
+              "options": ["Auto", "Mechanical Shut.", "Electronic Shut."],
+              "description": "Sets whether to use a mechanical or electronic shutter"
+            },
+            {
+              "name": "Release w/o Lens",
+              "options": ["Enable", "Disable"],
+              "description": "Sets whether to release the shutter when no lens is attached"
+            },
+            {
+              "name": "Release w/o Card",
+              "options": ["Enable", "Disable"],
+              "description": "Sets whether to release the shutter when no memory card is inserted"
+            },
+            {
+              "name": "Anti-flicker Set.",
+              "options": ["Anti-flicker Shoot.", "Var. Shutter", "Var. Shutter Set."],
+              "description": "Reduces impact of flickering from artificial light sources"
+            }
+          ]
+        },
+        {
+          "page_name": "Zoom",
+          "settings": [
+            {
+              "name": "Zoom Range",
+              "options": ["Optical zoom only", "On: Clear Image Zoom", "On: Digital Zoom"],
+              "description": "Sets the zoom range for functions other than optical zoom"
+            },
+            {
+              "name": "Zoom Speed",
+              "options": ["Fast", "Normal", "Slow"],
+              "description": "Sets the zoom speed when using custom key for zoom operation"
+            },
+            {
+              "name": "Zoom Speed (Remote)",
+              "options": ["Fast", "Normal", "Slow"],
+              "description": "Sets zoom speed when using remote commander"
+            }
+          ]
+        },
+        {
+          "page_name": "Shooting Display",
+          "settings": [
+            {
+              "name": "Live View Display",
+              "options": ["Setting Effect ON", "Setting Effect OFF"],
+              "description": "Sets whether to show images with effects like exposure compensation on screen"
+            },
+            {
+              "name": "Emph disp dur shoot",
+              "options": ["Off", "On"],
+              "description": "Whether to display a frame around the edge of the screen during shooting"
+            },
+            {
+              "name": "Shot. Result Preview",
+              "options": ["Off", "On"],
+              "description": "Automatically shows captured image after shooting"
+            },
+            {
+              "name": "Aperture Preview",
+              "options": ["On", "Off"],
+              "description": "Shows preview of aperture depth of field when button is pressed"
+            },
+            {
+              "name": "Shooting Info. Display",
+              "options": ["Auto", "Manual"],
+              "description": "Sets whether the shooting information display automatically follows orientation changes"
+            },
+            {
+              "name": "TC/UB Disp. Setting",
+              "options": ["TC", "UB"],
+              "description": "Sets the display for the time counter and user bits"
+            }
+          ]
+        },
+        {
+          "page_name": "External Flash Set.",
+          "settings": [
+            {
+              "name": "Flash Mode",
+              "options": ["Autoflash", "Fill-flash", "Slow Sync.", "Rear Sync.", "Off"],
+              "description": "Sets the flash mode"
+            },
+            {
+              "name": "Flash Comp.",
+              "options": ["-3.0EV" to "+3.0EV", "in 0.3EV steps"],
+              "description": "Adjusts the flash output"
+            },
+            {
+              "name": "Exp.comp.set",
+              "options": ["Ambient&flash", "Ambient only"],
+              "description": "Sets whether exposure compensation value applies to both flash and ambient light or only ambient"
+            },
+            {
+              "name": "Wireless Flash",
+              "options": ["Off", "On"],
+              "description": "Sets whether to use wireless flash"
+            },
+            {
+              "name": "Red Eye Reduction",
+              "options": ["On", "Off"],
+              "description": "Reduces red-eye phenomenon with flash"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tab_name": "Exposure/Color",
+      "tab_color": "Red",
+      "tab_icon": "EXPOSURE",
+      "pages": [
+        {
+          "page_name": "Exposure 1",
+          "settings": [
+            {
+              "name": "ISO",
+              "options": ["ISO AUTO", "ISO 100-32000", "Extended ISO 50-102400"],
+              "description": "Sets ISO sensitivity"
+            },
+            {
+              "name": "ISO AUTO Min. SS",
+              "options": ["Faster", "Fast", "Standard", "Slow", "Slower"],
+              "description": "Sets the shutter speed at which ISO sensitivity starts changing in ISO AUTO mode"
+            },
+            {
+              "name": "Auto/Manual Swt. Set.",
+              "options": ["Av Auto/Manual Switch", "Tv Auto/Manual Switch", "M/S Auto/Manual Swit."],
+              "description": "Sets whether to switch exposure modes automatically or manually"
+            },
+            {
+              "name": "Exposure comp.",
+              "options": ["-5.0EV" to "+5.0EV", "in 0.3EV/0.5EV steps"],
+              "description": "Compensates for the entire image brightness"
+            },
+            {
+              "name": "Reset EV Comp.",
+              "options": ["Reset", "Maintain"],
+              "description": "Sets whether to maintain the exposure value when turning off the power"
+            },
+            {
+              "name": "Exposure step",
+              "options": ["0.5EV", "0.3EV"],
+              "description": "Sets the increment step for shutter speed, aperture, and exposure"
+            }
+          ]
+        },
+        {
+          "page_name": "Exposure 2",
+          "settings": [
+            {
+              "name": "Metering Mode",
+              "options": ["Multi", "Center", "Spot", "Spot Std", "Entire Scrn Avg", "Highlight"],
+              "description": "Selects the method for measuring brightness"
+            },
+            {
+              "name": "Face Priority in Multi",
+              "options": ["On", "Off"],
+              "description": "Sets whether the camera measures brightness based on detected faces in Multi metering mode"
+            },
+            {
+              "name": "Spot Metering Point",
+              "options": ["Center", "Focus Point Link"],
+              "description": "Sets whether to coordinate the spot metering position with the focus area"
+            },
+            {
+              "name": "AEL w/ shutter",
+              "options": ["Auto", "On", "Off"],
+              "description": "Sets whether to perform AE lock when pressing the shutter button halfway"
+            },
+            {
+              "name": "Exposure Std. Adjust",
+              "options": ["-1.0EV" to "+1.0EV", "in 0.1EV steps"],
+              "description": "Adjusts the camera's standard for correct exposure value"
+            }
+          ]
+        },
+        {
+          "page_name": "White Balance",
+          "settings": [
+            {
+              "name": "White Balance",
+              "options": ["Auto", "Daylight", "Shade", "Cloudy", "Incandescent", "Fluor.", "Flash", "Underwater Auto", "C.Temp./Filter", "Custom 1-3"],
+              "description": "Adjusts the color tones according to the light source"
+            },
+            {
+              "name": "Priority Set in AWB",
+              "options": ["Standard", "Ambience", "White"],
+              "description": "Sets which tone to prioritize in auto white balance under light sources like incandescent light"
+            },
+            {
+              "name": "Shutter AWB Lock",
+              "options": ["Off", "Shoot. Only", "Cont. Shooting", "On"],
+              "description": "Sets whether to lock white balance during shutter press in auto white balance mode"
+            },
+            {
+              "name": "Shockless WB",
+              "options": ["Off", "1 (Fast)", "2", "3 (Slow)"],
+              "description": "Sets the transition speed when the white balance setting is changed"
+            }
+          ]
+        },
+        {
+          "page_name": "Color/Tone",
+          "settings": [
+            {
+              "name": "Creative Look",
+              "options": ["ST", "PT", "NT", "VV", "VV2", "FL", "IN", "SH", "BW", "SE", "Custom 1-6"],
+              "description": "Selects the desired image processing with rich gradation and colors"
+            },
+            {
+              "name": "Picture Profile",
+              "options": ["PP1-PP11"],
+              "description": "Changes settings such as color and gradation for movie recording"
+            },
+            {
+              "name": "Soft Skin Effect",
+              "options": ["Off", "On"],
+              "description": "Sets the Soft Skin Effect and the effect level"
+            },
+            {
+              "name": "Zebra Display",
+              "options": ["Off", "Zebra Select", "Zebra Level", "Processing Type"],
+              "description": "Sets zebra pattern to guide exposure"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tab_name": "Focus",
+      "tab_color": "Purple",
+      "tab_icon": "FOCUS",
+      "pages": [
+        {
+          "page_name": "AF/MF 1",
+          "settings": [
+            {
+              "name": "Focus Mode",
+              "options": ["Single-shot AF (AF-S)", "Automatic AF (AF-A)", "Continuous AF (AF-C)", "DMF", "Manual Focus"],
+              "description": "Selects the focus method to suit the movement of the subject"
+            },
+            {
+              "name": "Priority Set in AF-S",
+              "options": ["AF", "Release", "Balanced Emphasis"],
+              "description": "Sets whether to release the shutter even if the subject is not in focus in Single-shot AF mode"
+            },
+            {
+              "name": "Priority Set in AF-C",
+              "options": ["AF", "Release", "Balanced Emphasis"],
+              "description": "Sets whether to release the shutter even if the subject is not in focus in Continuous AF mode"
+            },
+            {
+              "name": "AF Tracking Sensitivity",
+              "options": ["1(Locked on)", "2", "3(Standard)", "4", "5(Responsive)"],
+              "description": "Sets the AF tracking sensitivity for still image mode"
+            },
+            {
+              "name": "AF Illuminator",
+              "options": ["Auto", "Off"],
+              "description": "Sets whether to use the AF illuminator in dark scenes to aid focusing"
+            },
+            {
+              "name": "Aperture Drive in AF",
+              "options": ["Focus Priority", "Standard", "Release Priority"],
+              "description": "Sets whether to prioritize focus or shutter release in AF mode with certain lenses"
+            }
+          ]
+        },
+        {
+          "page_name": "AF/MF 2",
+          "settings": [
+            {
+              "name": "AF w/ shutter",
+              "options": ["On", "Off"],
+              "description": "Sets whether to perform autofocus when the shutter button is pressed halfway"
+            },
+            {
+              "name": "Pre-AF",
+              "options": ["On", "Off"],
+              "description": "Sets whether to perform auto focusing before the shutter button is half pressed"
+            },
+            {
+              "name": "AF Transition Speed",
+              "options": ["1 (Fast)", "2", "3", "4", "5", "6", "7 (Slow)"],
+              "description": "Sets the focusing speed when the focus target changes during movie recording"
+            },
+            {
+              "name": "AF Subj. Shift Sensitivity",
+              "options": ["1 (Locked on)", "2", "3", "4", "5 (Responsive)"],
+              "description": "Sets the sensitivity for switching focus to another subject when the original subject moves out of focus area"
+            },
+            {
+              "name": "Focus Area Limit",
+              "options": ["Wide", "Zone", "Center Fix", "Spot", "Expand Spot", "Tracking", "Off"],
+              "description": "Limits the types of focus area settings available for selection"
+            },
+            {
+              "name": "Switch V/H AF Area",
+              "options": ["Off", "AF Point Only", "AF Point + AF Area"],
+              "description": "Sets whether to adjust focus area position based on camera orientation (horizontal/vertical)"
+            }
+          ]
+        },
+        {
+          "page_name": "AF/MF 3",
+          "settings": [
+            {
+              "name": "Focus Area",
+              "options": ["Wide", "Zone", "Center Fix", "Spot S/M/L", "Expand Spot", "Tracking"],
+              "description": "Selects the area of focus"
+            },
+            {
+              "name": "Focus Area Color",
+              "options": ["White", "Red"],
+              "description": "Sets the color of the frame indicating the focusing area"
+            },
+            {
+              "name": "AF Area Registration",
+              "options": ["On", "Off"],
+              "description": "Sets whether to register the focus area to a custom button for quick recall"
+            },
+            {
+              "name": "Del. Regist. AF Area",
+              "options": ["Delete"],
+              "description": "Deletes the registered focus area position"
+            },
+            {
+              "name": "AF Area Auto Clear",
+              "options": ["On", "Off"],
+              "description": "Sets whether the focus area is displayed all the time or disappears after focus is achieved"
+            },
+            {
+              "name": "Disp. AF Area during Trck",
+              "options": ["On", "Off"],
+              "description": "Sets whether to display the focusing area in tracking mode"
+            }
+          ]
+        },
+        {
+          "page_name": "AF/MF 4",
+          "settings": [
+            {
+              "name": "AF-C Area Display",
+              "options": ["On", "Off"],
+              "description": "Sets whether to display the focus area in continuous AF mode"
+            },
+            {
+              "name": "Phase Detect. Area",
+              "options": ["On", "Off"],
+              "description": "Sets whether to display phase detection AF area"
+            },
+            {
+              "name": "Circ. of Focus Point",
+              "options": ["Does Not Circulate", "Circulate"],
+              "description": "Sets whether to allow the focus point to move from one end to the other when moving the focus area"
+            },
+            {
+              "name": "AF Frame Move Amt",
+              "options": ["Standard", "Large"],
+              "description": "Sets the distance to move the focus area frame"
+            },
+            {
+              "name": "Face/Eye Prior. in AF",
+              "options": ["On", "Off"],
+              "description": "Sets whether to detect faces or eyes inside the focus area and focus on them"
+            },
+            {
+              "name": "Face/Eye Subject",
+              "options": ["Human", "Animal", "Bird", "Insect", "Car/Train", "Airplane"],
+              "description": "Selects the type of subject to detect for face/eye priority"
+            }
+          ]
+        },
+        {
+          "page_name": "AF/MF 5",
+          "settings": [
+            {
+              "name": "Subj. Recog in AF",
+              "options": ["On", "Off"],
+              "description": "Sets whether to detect the specified subject type inside the focus area"
+            },
+            {
+              "name": "Right/Left Eye Select",
+              "options": ["Auto", "Right Eye", "Left Eye"],
+              "description": "Sets whether to focus on the right or left eye when face/eye priority is active"
+            },
+            {
+              "name": "Face/Eye Frame Disp.",
+              "options": ["On", "Off"],
+              "description": "Sets whether to display the face/eye detection frame"
+            },
+            {
+              "name": "Subject Recognition",
+              "options": ["Human", "Animal", "Bird", "Insect", "Car/Train", "Airplane"],
+              "description": "Sets the subjects to be detected"
+            },
+            {
+              "name": "Recognition Target",
+              "options": ["Human", "Bird/Animal", "Animal", "Bird", "Insect", "Car/Train", "Airplane"],
+              "description": "Sets the target for recognition by the camera's AI system"
+            }
+          ]
+        },
+        {
+          "page_name": "Focus Assist",
+          "settings": [
+            {
+              "name": "Focus Map",
+              "options": ["On", "Off"],
+              "description": "Provides a visual indicator of depth that highlights in-focus areas for precise focus"
+            },
+            {
+              "name": "Focus Magnifier",
+              "options": ["On", "Off"],
+              "description": "Enlarges the image to check focus"
+            },
+            {
+              "name": "Focus Magnif. Time",
+              "options": ["No Limit", "2 Sec", "5 Sec", "10 Sec"],
+              "description": "Sets the length of time the image will be shown magnified"
+            },
+            {
+              "name": "Initial Focus Mag.",
+              "options": ["x1.0", "x2.1", "x4.0", "x8.3"],
+              "description": "Sets the initial magnification scale when using the focus magnifier"
+            },
+            {
+              "name": "AF in Focus Mag.",
+              "options": ["On", "Off"],
+              "description": "Sets whether to use autofocus when showing magnified view"
+            },
+            {
+              "name": "Initial Focus Mag.",
+              "options": ["x1.0", "x2.1", "x4.0", "x8.3"],
+              "description": "Sets the initial magnification when magnifying the display"
+            }
+          ]
+        },
+        {
+          "page_name": "Focus Assist 2",
+          "settings": [
+            {
+              "name": "Peaking Display",
+              "options": ["Peaking Display", "Peaking Level", "Peaking Color"],
+              "description": "Sets the peaking function which enhances the outline of in-focus areas during manual focus"
+            },
+            {
+              "name": "Peaking Level",
+              "options": ["High", "Mid", "Low"],
+              "description": "Sets the level of peaking enhancement"
+            },
+            {
+              "name": "Peaking Color",
+              "options": ["Red", "Yellow", "Blue", "White"],
+              "description": "Sets the color used for the peaking enhancement"
+            },
+            {
+              "name": "Focus Bracket",
+              "options": ["On", "Off"],
+              "description": "Takes multiple images with different focus positions, useful for focus stacking"
+            },
+            {
+              "name": "Focus Bracket. settings",
+              "options": ["Number of Shots", "Focus Range", "Bracket Interval"],
+              "description": "Configures focus bracketing settings"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tab_name": "Playback",
+      "tab_color": "Blue",
+      "tab_icon": "PLAYBACK",
+      "pages": [
+        {
+          "page_name": "Playback 1",
+          "settings": [
+            {
+              "name": "Playback Target Select",
+              "options": ["Normal Media", "Transfer Media"],
+              "description": "Sets which card slot to use for playing back images"
+            },
+            {
+              "name": "View Mode",
+              "options": ["Date View", "Folder View (Still)", "Folder View (MP4)", "XAVC HS", "XAVC S HD", "XAVC S", "XAVC S-I"],
+              "description": "Sets how images are grouped for playback"
+            },
+            {
+              "name": "Enlarge Image",
+              "options": ["Enlarge", "Enlarge Initial Mag.", "Enlarge Initial Pos."],
+              "description": "Enlarges the image being played back"
+            },
+            {
+              "name": "Enlarge Initial Mag.",
+              "options": ["Standard Mag.", "Previous Mag."],
+              "description": "Sets the initial magnification scale when playing back enlarged images"
+            },
+            {
+              "name": "Enlarge Initial Pos.",
+              "options": ["Focused Position", "Center"],
+              "description": "Sets the initial position when enlarging an image during playback"
+            },
+            {
+              "name": "Protect",
+              "options": ["All Images in Folder", "All with this date", "Cancel All in Folder", "Cancel All with this date"],
+              "description": "Protects images against accidental erasure"
+            }
+          ]
+        },
+        {
+          "page_name": "Playback 2",
+          "settings": [
+            {
+              "name": "Rating",
+              "options": ["1-5 Stars", "None"],
+              "description": "Assigns ratings to recorded images on a scale from 1-5 stars"
+            },
+            {
+              "name": "Rating Set (Custom Key)",
+              "options": ["1-5 Stars", "None"],
+              "description": "Sets the rating value available when rating images with the key assigned using Custom Key Setting"
+            },
+            {
+              "name": "Delete",
+              "options": ["Multiple Images", "All in Folder", "All with this date"],
+              "description": "Deletes selected images"
+            },
+            {
+              "name": "Delete confirm.",
+              "options": ["\"Delete\" first", "\"Cancel\" first"],
+              "description": "Sets whether 'Delete' or 'Cancel' is selected by default on the delete confirmation screen"
+            },
+            {
+              "name": "Rotate",
+              "options": ["Rotate"],
+              "description": "Rotates the image"
+            }
+          ]
+        },
+        {
+          "page_name": "Playback 3",
+          "settings": [
+            {
+              "name": "Copy",
+              "options": ["Select Folder to Copy To"],
+              "description": "Copies images from one memory card to another"
+            },
+            {
+              "name": "Photo Capture",
+              "options": ["Execute"],
+              "description": "Captures a still image from a movie"
+            },
+            {
+              "name": "JPEG/HEIF Switch",
+              "options": ["JPEG", "HEIF"],
+              "description": "Switches the file format between JPEG and HEIF for images displayed during playback"
+            },
+            {
+              "name": "Continuous Play for Interval",
+              "options": ["Play", "Play Speed"],
+              "description": "Continuously plays back images shot using interval shooting"
+            },
+            {
+              "name": "Play Speed for Interval",
+              "options": ["Fast", "Normal", "Slow"],
+              "description": "Sets the playback speed when playing back images with Continuous Play for Interval"
+            }
+          ]
+        },
+        {
+          "page_name": "Playback 4",
+          "settings": [
+            {
+              "name": "Slide Show",
+              "options": ["Repeat", "Interval"],
+              "description": "Plays a slideshow of stored images"
+            },
+            {
+              "name": "Image Index",
+              "options": ["9 Images", "25 Images"],
+              "description": "Sets the number of images displayed on the index screen"
+            },
+            {
+              "name": "Display as Group",
+              "options": ["On", "Off"],
+              "description": "Sets whether to display images shot in burst mode as a group"
+            },
+            {
+              "name": "Display Rotation",
+              "options": ["Auto", "Manual", "Off"],
+              "description": "Sets whether to rotate vertically oriented images during playback"
+            },
+            {
+              "name": "Focus Frame Display",
+              "options": ["On", "Off"],
+              "description": "Sets whether to display the focus frame when reviewing images"
+            },
+            {
+              "name": "Image Jump Setting",
+              "options": ["One by one", "By 10 images", "By 100 images", "Protect Only", "Rating Only", "Still/movie Select", "JPEG/HEIF Select"],
+              "description": "Sets the method for jumping between images during playback"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tab_name": "Network",
+      "tab_color": "Green",
+      "tab_icon": "NETWORK",
+      "pages": [
+        {
+          "page_name": "Connection 1",
+          "settings": [
+            {
+              "name": "Smartphone Connection",
+              "options": ["On", "Off"],
+              "description": "Sets whether to connect the camera to a smartphone"
+            },
+            {
+              "name": "Connection",
+              "options": ["Connection", "Connection Info."],
+              "description": "Displays information for connecting the camera to a smartphone"
+            },
+            {
+              "name": "Always Connected",
+              "options": ["On", "Off"],
+              "description": "Sets whether to always connect the camera and a smartphone that have been connected before"
+            },
+            {
+              "name": "Bluetooth Function",
+              "options": ["On", "Off"],
+              "description": "Sets whether to activate the Bluetooth function"
+            },
+            {
+              "name": "WPS Push",
+              "options": ["Execute"],
+              "description": "Lets you register an access point easily by pushing the WPS button"
+            },
+            {
+              "name": "Access Point Set.",
+              "options": ["Manual Setup"],
+              "description": "Lets you register your access point manually"
+            }
+          ]
+        },
+        {
+          "page_name": "Connection 2",
+          "settings": [
+            {
+              "name": "Bluetooth Rmt Ctrl",
+              "options": ["On", "Off"],
+              "description": "Sets whether to use a Bluetooth remote commander"
+            },
+            {
+              "name": "Device Name Edit",
+              "options": ["Edit"],
+              "description": "Allows you to change the device name under Wi-Fi Direct"
+            },
+            {
+              "name": "Import Root Certificate",
+              "options": ["Execute"],
+              "description": "Imports a root certificate to authenticate external services"
+            },
+            {
+              "name": "Security (IPsec)",
+              "options": ["IPsec Settings", "IP Address", "Pre-shared Key"],
+              "description": "Configures security settings for IPsec connections"
+            },
+            {
+              "name": "Reset Network Set.",
+              "options": ["Execute"],
+              "description": "Resets all network settings to default values"
+            }
+          ]
+        },
+        {
+          "page_name": "Transfer/Remote",
+          "settings": [
+            {
+              "name": "FTP Transfer Func.",
+              "options": ["FTP Server", "Transfer Function", "Auto FTP Mode"],
+              "description": "Settings for FTP image transfer"
+            },
+            {
+              "name": "PC Remote Function",
+              "options": ["PC Remote", "PC Remote Conn. Method", "Pairing"],
+              "description": "Controls the camera remotely from a computer"
+            },
+            {
+              "name": "Airplane Mode",
+              "options": ["On", "Off"],
+              "description": "Disables all wireless communications from the device"
+            },
+            {
+              "name": "Edit Device Name",
+              "options": ["Edit"],
+              "description": "Changes the device name for network connections"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tab_name": "Setup",
+      "tab_color": "Yellow",
+      "tab_icon": "SETUP",
+      "pages": [
+        {
+          "page_name": "Display 1",
+          "settings": [
+            {
+              "name": "Monitor Brightness",
+              "options": ["Manual", "Sunny Weather"],
+              "description": "Adjusts the screen brightness"
+            },
+            {
+              "name": "Viewfinder Bright.",
+              "options": ["Auto", "Manual"],
+              "description": "When using the electronic viewfinder, sets the brightness of the viewfinder"
+            },
+            {
+              "name": "Finder Color Temp.",
+              "options": ["-2 (cold)" to "+2 (warm)"],
+              "description": "Adjusts the color temperature of the viewfinder"
+            },
+            {
+              "name": "Display Quality",
+              "options": ["High", "Standard"],
+              "description": "Sets the display quality"
+            },
+            {
+              "name": "Finder Frame Rate",
+              "options": ["Standard", "High"],
+              "description": "Sets the frame rate for the viewfinder during still image shooting"
+            }
+          ]
+        },
+        {
+          "page_name": "Display 2",
+          "settings": [
+            {
+              "name": "TC/UB Disp. Setting",
+              "options": ["TC", "UB"],
+              "description": "Sets the display for the time counter, user bits, and recording format"
+            },
+            {
+              "name": "Gamma Display Assist",
+              "options": ["On", "Off"],
+              "description": "Enables the Gamma Display Assist function, which shows a normal-contrast preview when using S-Log gamma"
+            },
+            {
+              "name": "Gamma Disp. Assist Typ.",
+              "options": ["Auto", "S-Log2", "S-Log3"],
+              "description": "Sets the conversion type for the Gamma Display Assist"
+            },
+            {
+              "name": "Display Media Info.",
+              "options": ["Execute"],
+              "description": "Displays recording time available for movies and number of recordable still images on the memory card"
+            },
+            {
+              "name": "Auto Review",
+              "options": ["10 Sec", "5 Sec", "2 Sec", "Off"],
+              "description": "Sets automatic review to display the captured image after shooting"
+            },
+            {
+              "name": "Power Save Start Time",
+              "options": ["30 Min", "5 Min", "2 Min", "1 Min", "10 Sec"],
+              "description": "Sets the time before the camera automatically powers off"
+            }
+          ]
+        },
+        {
+          "page_name": "Operation Customize 1",
+          "settings": [
+            {
+              "name": "DISP (Screen Disp) Set",
+              "options": ["Monitor", "Finder"],
+              "description": "Sets the screen information to be displayed when DISP (Display Setting) button is pressed"
+            },
+            {
+              "name": "REC w/ Shutter",
+              "options": ["On", "Off"],
+              "description": "Sets whether to record movies using the shutter button"
+            },
+            {
+              "name": "Zoom Ring Rotate",
+              "options": ["Left (W) / Right (T)", "Right (W) / Left (T)"],
+              "description": "Assigns zoom in/out functions to the zoom ring rotation direction"
+            },
+            {
+              "name": "Custom Key Setting",
+              "options": ["Shooting", "Playback"],
+              "description": "Assigns functions to the custom buttons for shooting or playback"
+            },
+            {
+              "name": "Custom Key/Dial Set.",
+              "options": ["Shooting", "Playback"],
+              "description": "Assigns desired functions to the desired keys and dials"
+            },
+            {
+              "name": "My Dial Settings",
+              "options": ["Custom 1", "Custom 2", "Custom 3"],
+              "description": "Registers functions to the custom dials and recall them when shooting"
+            }
+          ]
+        },
+        {
+          "page_name": "Operation Customize 2",
+          "settings": [
+            {
+              "name": "Dial Setup",
+              "options": ["Av Tv", "Tv Av"],
+              "description": "Sets the functions of the front/rear dials in manual exposure mode"
+            },
+            {
+              "name": "Av/Tv Rotate",
+              "options": ["Normal", "Reverse"],
+              "description": "Sets the direction of rotation for front/rear dials to adjust aperture and shutter speed"
+            },
+            {
+              "name": "Function Ring(Lens)",
+              "options": ["Power Focus", "Focus", "Zoom", "Aperture", "Off"],
+              "description": "Assigns a function to the function ring on the lens"
+            },
+            {
+              "name": "Func. of Touch Operation",
+              "options": ["Touch Focus", "Touch Tracking", "Touch Shutter", "Off"],
+              "description": "Sets which operation is activated by touch operation on the monitor"
+            },
+            {
+              "name": "Dial/Wheel Lock",
+              "options": ["Lock", "Unlock"],
+              "description": "Sets whether to lock the dials and wheel by pressing and holding the Fn button"
+            },
+            {
+              "name": "Touch Operation",
+              "options": ["On", "Off"],
+              "description": "Sets whether to activate touch panel operations"
+            }
+          ]
+        },
+        {
+          "page_name": "Operation Customize 3",
+          "settings": [
+            {
+              "name": "Touch Sensitivity",
+              "options": ["Standard", "Sensitive"],
+              "description": "Sets the touch panel sensitivity"
+            },
+            {
+              "name": "Touch Panel/Pad",
+              "options": ["Touch Panel Only", "Touch Panel+Pad", "Touch Pad Only"],
+              "description": "Sets whether to activate touch panel operations when shooting with the monitor, or touch pad operations when shooting with the viewfinder"
+            },
+            {
+              "name": "Touch Pad Settings",
+              "options": ["Operation in V Orientation", "Touch Pos. Mode", "Operation Area"],
+              "description": "Adjusts settings for touch pad operations when shooting with the viewfinder"
+            },
+            {
+              "name": "Fn Menu Settings",
+              "options": ["Customize"],
+              "description": "Customizes the functions displayed when the Fn (Function) button is pressed"
+            },
+            {
+              "name": "Different Set for Still/Mv",
+              "options": ["On", "Off"],
+              "description": "Sets whether to apply different settings in photo and movie modes"
+            },
+            {
+              "name": "MOVIE/S&Q Settings",
+              "options": ["Customize"],
+              "description": "Customizes settings for movie and slow & quick motion recording"
+            }
+          ]
+        },
+        {
+          "page_name": "File / Media",
+          "settings": [
+            {
+              "name": "Format",
+              "options": ["Slot 1", "Slot 2"],
+              "description": "Formats the memory card"
+            },
+            {
+              "name": "Rec. Media Settings",
+              "options": ["Recording Media", "Auto Switch Media", "Recording Mode", "Rec. Destination Media"],
+              "description": "Sets how images are recorded to the two memory card slots"
+            },
+            {
+              "name": "Select Rec. Media",
+              "options": ["Slot 1", "Slot 2"],
+              "description": "Selects which memory card slot to use for recording"
+            },
+            {
+              "name": "File/Folder Settings",
+              "options": ["File Number", "Set File Name", "Folder Name", "Create New Folder"],
+              "description": "Sets file names and folders for still images"
+            },
+            {
+              "name": "Movie File Settings",
+              "options": ["File Number", "Counter Reset", "File Name Format", "Title Name Settings"],
+              "description": "Sets file numbering and names for movies"
+            },
+            {
+              "name": "Recover Media",
+              "options": ["Execute"],
+              "description": "Attempts to recover the image database file and enable normal recording and playback"
+            }
+          ]
+        },
+        {
+          "page_name": "Setup 1",
+          "settings": [
+            {
+              "name": "Area/Date/Time Setting",
+              "options": ["Area Setting", "Daylight Savings", "Date/Time", "Date Format"],
+              "description": "Sets the region, date, and time"
+            },
+            {
+              "name": "NTSC/PAL Selector",
+              "options": ["NTSC", "PAL"],
+              "description": "Changes the TV format of the device"
+            },
+            {
+              "name": "Audio signals",
+              "options": ["On", "Off"],
+              "description": "Sets whether to beep during focus or self-timer operations"
+            },
+            {
+              "name": "Anti-Dust Function",
+              "options": ["Sensor Cleaning", "Auto Power Off Temp.", "Auto Pixel Mapping"],
+              "description": "Sets the anti-dust function to clean the image sensor"
+            },
+            {
+              "name": "Sensor Cleaning",
+              "options": ["Execute"],
+              "description": "Vibrates the image sensor to remove dust"
+            },
+            {
+              "name": "Touch Operation",
+              "options": ["On", "Off"],
+              "description": "Sets whether to activate touch operations"
+            }
+          ]
+        },
+        {
+          "page_name": "Setup 2",
+          "settings": [
+            {
+              "name": "Auto Power OFF Temp.",
+              "options": ["Standard", "High"],
+              "description": "Sets the temperature at which the camera turns off automatically during shooting"
+            },
+            {
+              "name": "IR Remote Ctrl",
+              "options": ["On", "Off"],
+              "description": "Sets whether to use the infrared remote control"
+            },
+            {
+              "name": "HDMI Resolution",
+              "options": ["Auto", "2160p", "1080p", "1080i", "720p"],
+              "description": "Sets the resolution when connecting to HDMI TV"
+            },
+            {
+              "name": "HDMI Output Settings",
+              "options": ["Rec Media dur HDMI Output", "Output Resolution", "4K Output Settings"],
+              "description": "Sets the HDMI output settings"
+            },
+            {
+              "name": "USB Connection",
+              "options": ["Auto", "MTP", "Mass Storage"],
+              "description": "Sets the USB connection method"
+            },
+            {
+              "name": "USB LUN Setting",
+              "options": ["Multi", "Single"],
+              "description": "Sets whether to limit USB connection functions"
+            }
+          ]
+        },
+        {
+          "page_name": "Setup 3",
+          "settings": [
+            {
+              "name": "USB Power Supply",
+              "options": ["On", "Off"],
+              "description": "Sets whether to supply power via USB cable when connected to a computer or USB device"
+            },
+            {
+              "name": "HDMI Info. Display",
+              "options": ["On", "Off"],
+              "description": "Sets whether to display shooting info on HDMI-connected TV"
+            },
+            {
+              "name": "Video Light Mode",
+              "options": ["Power Link", "REC Link", "REC Link & STBY", "Auto"],
+              "description": "Sets the illumination setting for the HVL-LBPC LED light"
+            },
+            {
+              "name": "Delete Confirm.",
+              "options": ["\"Delete\" first", "\"Cancel\" first"],
+              "description": "Sets whether Delete or Cancel is preselected in the delete confirmation screen"
+            },
+            {
+              "name": "Language",
+              "options": ["Multiple language options"],
+              "description": "Selects the language to be used in menu items and messages"
+            },
+            {
+              "name": "Save/Load Settings",
+              "options": ["Save", "Load", "Delete"],
+              "description": "Saves camera settings to and loads them from a memory card"
+            }
+          ]
+        },
+        {
+          "page_name": "Setup 4",
+          "settings": [
+            {
+              "name": "Setting Reset",
+              "options": ["Camera Settings Reset", "Initialize"],
+              "description": "Restores the product to default settings"
+            },
+            {
+              "name": "Display From My Menu",
+              "options": ["On", "Off"],
+              "description": "Sets whether My Menu appears first when pressing MENU button"
+            },
+            {
+              "name": "Version",
+              "options": ["Display"],
+              "description": "Displays the camera software version"
+            },
+            {
+              "name": "Regulatory Information",
+              "options": ["Display"],
+              "description": "Displays the regulatory information"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tab_name": "My Menu",
+      "tab_color": "Green",
+      "tab_icon": "STAR",
+      "description": "A customizable menu tab where users can add frequently accessed settings from other menus",
+      "pages": [
+        {
+          "page_name": "My Menu 1",
+          "settings": [
+            {
+              "name": "Add Item",
+              "description": "Adds a menu item to My Menu"
+            },
+            {
+              "name": "Sort Item",
+              "description": "Rearranges menu items added to My Menu"
+            },
+            {
+              "name": "Delete Item",
+              "description": "Deletes menu items added to My Menu"
+            },
+            {
+              "name": "Delete Page",
+              "description": "Deletes all the menu items on a page in My Menu"
+            },
+            {
+              "name": "Delete All",
+              "description": "Deletes all the menu items added to My Menu"
+            },
+            {
+              "name": "Display From My Menu",
+              "options": ["On", "Off"],
+              "description": "Sets whether to display My Menu first when the MENU button is pressed"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
